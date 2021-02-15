@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+.CAV_MAIN {
+  width: auto;
+  height: auto;
+  border: 2px solid #c1bdbd;
+  border-radius: 16px;
+  color: grey;
+  padding: 38px;
+  background-color: #f4f2f2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input.CAV_INPUT {
+  height: 44px;
+  width: 300px;
+  padding-left: 16px;
+  border: 1px solid #b5aeae;
+  color: #b5aeae;
+  border-radius: 5px 0px 0px 5px;
+  padding: 0px 0px 5px 24px;
+  margin-top: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button.CAV_ADD_BUTTON {
+  height: 44px;
+  width: 82px;
+  border: 1px solid #dd3b2f;
+  color: #dd3b2f;
+  background-color: white;
+  cursor: pointer;
+  padding: 0px 0px 3px 0px;
+}
+.CAV_ADD_BUTTON i.far.fa-plus-circle {
+  font-weight: 200;
+  margin-right: 3px;
+}
+.vl {
+  border-left: 2px solid #c7c7c7;
+  height: auto;
+}
+span.Remove_all_span {
+  color: red;
+  font-size: 11px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button.button.button_remove {
+  background-color: #e7e1e1;
+  border: 0px solid #e1e0e0;
+  border-radius: 14px;
+  padding: 4px 12px;
+  margin: 5px;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.button_remove i.fas.fa-minus-circle {
+  color: grey;
+  padding-left: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span.Remove_all_span a {
+  text-decoration: none;
+  color: red;
 }
